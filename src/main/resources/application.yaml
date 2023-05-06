@@ -24,3 +24,7 @@ person:
       - {name: tom}
       - {name: jerry,weight: 47}
     health: [{name: mario,weight: 47}]
+
+spring:
+  mvc:
+    static-path-pattern: /res/**
